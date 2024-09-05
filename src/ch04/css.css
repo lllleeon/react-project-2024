@@ -1,0 +1,19 @@
+{
+background: #61dafb;
+color: brown;
+border: chartreuse;
+}
+button{
+    color: chartreuse;
+    margin: 5px;
+    size: 40px;
+}
+.bg-red{
+    color: red;
+}
+.bg-blue{
+    color: blue;
+}
+.bg-green{
+    color: green;
+}
