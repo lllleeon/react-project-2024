@@ -1,0 +1,13 @@
+.wrapper{
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    border: 1px solid grey;
+    flex-direction: 16px;
+    border-radius: 16px;
+}
+.messageText: {
+    color: "azure";
+    fontSize: 16;
+
+}

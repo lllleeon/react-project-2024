@@ -10,17 +10,18 @@ import lirary from "./chp03/lirary";
 import ConfirmDialog from "./ch04/ConfirmDialog";
 import Clock from "./ch04/Clock";
 import CommentList from "./chp05/CommentList";
+import NotificationList from "./chp6/NotificationList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(()=>{root.render(
-   // <React.StrictMode>
-     //   <Clock/>
-   // </React.StrictMode>
-);},1000)
+// setInterval(()=>{root.render(
+//    // <React.StrictMode>
+//      //   <Clock/>
+//    // </React.StrictMode>
+// );},1000)
 
 root.render(
   <React.StrictMode>
-      <CommentList/>
+      <NotificationList/>
   </React.StrictMode>
 );
 
