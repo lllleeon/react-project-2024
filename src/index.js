@@ -11,6 +11,7 @@ import ConfirmDialog from "./ch04/ConfirmDialog";
 import Clock from "./ch04/Clock";
 import CommentList from "./chp05/CommentList";
 import NotificationList from "./chp6/NotificationList";
+import Accommodate from "./chp07/Accommodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{root.render(
@@ -21,7 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-      <NotificationList/>
+      <Accommodate/>
   </React.StrictMode>
 );
 
