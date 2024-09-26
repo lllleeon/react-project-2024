@@ -1,4 +1,5 @@
 import React from "react";
+import "./Notification.css"
 
 //const styles ={
  //   wrapper: {
@@ -22,6 +23,15 @@ class Notification extends React.Component{
         this.state ={
 
         };
+    }
+    componentDidMount() {
+        console.log(`${this.props.id}: componentDidMount()called`)
+    }
+    componentDidMount() {
+        console.log(`${this.props.id}: componentDidMount()called`)
+    }
+    componentDidMount() {
+        console.log(`${this.props.id}: componentDidMount()called`)
     }
 
     render() {

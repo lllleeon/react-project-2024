@@ -3,12 +3,15 @@ import Notification from "./Notification";
 
 const reservedNotifications =[
     {
+        id:1,
         message: "아안녕오늘일ㅈㅇ으라렬드립니다"
     },
     {
+        id:2,
         message: "현재섭중인 웹프로그랙밍활용수럽을 ㅕㄹ심히 들으세어"
     },
     {
+        id:3,
         message: "열심히듣고 기서브에 커밋하시면 됩ㄴ다"
     },
 ];
@@ -23,8 +26,8 @@ class NotificationList extends React.Component{
         };
     }
     componentDidMount() {
-        const {notifications} = this.state;
 
+        const {notifications} = this.state;
         timer = setInterval(() =>  {
             if(notifications.length < reservedNotifications.length){
                 const index = notifications.length;
@@ -33,9 +36,12 @@ class NotificationList extends React.Component{
                    notifications: notifications,
                 });
             }else{
+                this.setState({
+                    notifications:[],
+                });
                 clearInterval(timer);
             }
-        }, 1000);
+        }, 2000);
     }
 
     componentWillUnmount() {
@@ -48,7 +54,10 @@ class NotificationList extends React.Component{
             <div>
                 {
                     this.state.notifications.map((notification)=>{
-                        return <Notification message={notification.message}/>
+                        return <Notification
+                            key={notification.id}
+                            id={notification.id}
+                            message={notification.message}/>
                     })
                 }
             </div>
