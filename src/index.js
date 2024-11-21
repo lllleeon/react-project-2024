@@ -18,6 +18,7 @@ import Counter from "./chpo8/Counter";
 import ConfirmButton from "./chpo8/ConfirmButton";
 import ConfirmButton2 from "./chpo8/ConfirmButton2";
 import ConfirmButton3 from "./chpo8/ConfirmButton3";
+import RequestForm from "./chp11/RequestForm";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{root.render(
@@ -28,7 +29,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-      <ConfirmButton3/>
+      <RequestForm/>
   </React.StrictMode>
 );
 
