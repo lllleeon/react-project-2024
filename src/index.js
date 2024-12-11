@@ -1,24 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-//import './chp03/book.css'
-//import './ch04/css.css'
-//import '/ch04/Clock.css'
-import App from './App';
+
+
 import reportWebVitals from './reportWebVitals';
-import lirary from "./chp03/lirary";
-import ConfirmDialog from "./ch04/ConfirmDialog";
-import Clock from "./ch04/Clock";
-import CommentList from "./chp05/CommentList";
-import NotificationList from "./chp6/NotificationList";
-import Accommodate from "./chp07/Accommodate";
-import Toggle from "./chpo8/Toggle";
-import MyButton from "./chpo8/MyButton";
-import Counter from "./chpo8/Counter";
-import ConfirmButton from "./chpo8/ConfirmButton";
-import ConfirmButton2 from "./chpo8/ConfirmButton2";
-import ConfirmButton3 from "./chpo8/ConfirmButton3";
-import RequestForm from "./chp11/RequestForm";
+import AirApp from "./chp13_airnbHome/AirApp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{root.render(
@@ -29,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-      <RequestForm/>
+      <AirApp/>
   </React.StrictMode>
 );
 

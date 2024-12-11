@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import styles from "./DistanceConverter.module.css";
-import comment from "../../chp05/Comment";
 import DistanceInput from "./DistanceInput";
 
 function tokilometer(miles){
